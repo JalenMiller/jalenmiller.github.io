@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-image: url("..images/forest.jpg");
+	background-image: url(..images/forest.jpg);
 	background-position:auto; 
 	background-size:100%;
 	background-repeat:repeat;
