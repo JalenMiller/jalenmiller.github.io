@@ -29,11 +29,35 @@ body {
 	overflow: auto;
 }
 
-#titleHead {
+.titleHead {
 	width: 150px;
 	height: 55px;
 	background-color: hsl(175, 40%, 40%);
 	border-bottom: 3px solid hsl(175, 41%, 36%)
+}
+
+#main {
+	background-color: hsl(0, 0%, 90%);
+	height: 600px;
+	border-bottom: 5px solid hsl(175, 40%, 40%);
+}
+
+#mainContent {
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+h4 {
+	text-align: center;
+	position: relative;
+	top: 20%;
+	color: white;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: .1em;
+
 }
 
 /*Links Section*/
