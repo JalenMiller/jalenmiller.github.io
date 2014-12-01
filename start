@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Jalen Miller </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/gif" href="logo.png">
+	<a href="home" class="name"><img src=""></a>
+
+<style>
+	body {
+	background: white;
+	}
+
+	.name {
+		display: block;
+		width: 360px;
+		height: 144px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		background:url("Namee.png") no-repeat;
+
+	}
+
+	.name:hover {
+		display: block;
+		width: 360px;
+		height: 144px;
+		background: url("greenName.png") no-repeat;
+
+	}
+
+
+</style>
+</html>

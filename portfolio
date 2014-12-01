@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title> Home | K. Fortner </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="image/gif" href="logo.png">
+		  <div class="header">
+		        <a href='home'><img src="greenName.png" width="285" height="85" class="big-logo"></div></a>
+
+		<ul class="nav">
+			<li><a href="home">Home</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="portfolio">Portfolio</a></li>
+			<li><a href="contact">Contact</a></li>
+		</ul>	
+
+		<div><img src="" width="100%" height="100%" alignment="center"></div>
+
+
+		<center>
+		<script type="text/javascript">
+			<!--
+			var image1=new Image(1)
+			image1.src="Yeezus.jpg"
+			var image2=new Image(2)
+			image2.src="Beachlove.jpg"
+			var image3=new Image(3)
+			image3.src="Beach.jpg"
+			var image4=new Image(4)
+			image4.src="Mexico.jpg"
+			//-->
+		</script>
+	</head>
+<body>
+<div class="slide"><img src="Yeezus.jpg" name="slide"></div>
+
+
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<4)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",2000)
+}
+slideit()
+//-->
+</script>
+</body>
+</center>
+
+</html>
