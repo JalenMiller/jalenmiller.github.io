@@ -60,6 +60,11 @@ h4 {
 
 }
 
+p.mainCopy {
+	font-family: open-sans, lato, arial, sans-serif;
+	margin-top: .9em;
+}
+
 /*Links Section*/
 a:link {
 	text-decoration: none;
