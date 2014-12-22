@@ -67,7 +67,7 @@ p {
 }
 
 
-.big-logo {
+#big-logo {
 	position: absolute;
 	float:left;
 	padding: 10px;

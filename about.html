@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8" />
-		<title> About | J.Miller </title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title> About Me | J.Miller </title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 		<link rel="shortcut icon" type="image/gif" href="images/logo.png">
-		<a href='home'><img src="images/redname.png" width="285" height="85" id="big-logo"></a>
+		<link href="stylesheets/keyframes.css">
+    	<link href="stylesheets/pageTransitions.css">
+		<script src="javascripts/jquery.js"></script>
+		<script src="javascripts/smoothState.js"></script>
+		<script src="javascripts/main.js"></script>
 
-	<div id="nav">
-		<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
+		<a href='home.html'><img src="images/redname.png" width="285" height="85" id="big-logo"></a>
+
+	<div id="main" class="m-scene">
+		<div id="nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
 	</div>
 </head>
 
 <body>
-	<br><br><br>
-	<p>
-		I'm Jalen Miller, a student at the University of Oregon pursuing product design. I have a girlfriend who I love who made me this website and she's amazing.
-	</p>
+	<div class="scene_element scene_element--fadein">
+		<br><br><br>
+		<p>
+			I'm Jalen Miller, a student at the University of Oregon pursuing product design. I have a girlfriend who I love who made me this website and she's amazing.
+		</p>
+	</div>
 
 </body>
 
