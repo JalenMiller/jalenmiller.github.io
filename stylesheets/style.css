@@ -27,8 +27,8 @@ p {
 	width: 80%;
 	height: 50%;
 	text-align: center;
-	color: rgba(255, 255, 255, 1.00);
-	background-color: #A00000;
+	color:#007402;
+	background-color:rgba(137,137,137,0.3);
 	padding: 1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -53,6 +53,7 @@ p {
 }
 
 #nav a {
+	color:#000000;
 	display:inline-block;
 	padding-bottom:10px;
 	padding-top:35px;
@@ -60,7 +61,7 @@ p {
 }
 
 #nav a:hover {
-	color:#A00000;
+	color:#007402;
 	text-transform: uppercase;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	letter-spacing: 0.3em;
