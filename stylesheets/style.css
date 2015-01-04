@@ -2,12 +2,12 @@
 /* CSS Document */
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	height: 100%;
 	position: relative;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	background-image: url();
+	background-image: url("../images/forest.jpg");
 	background-size: cover;
 }
 
@@ -24,11 +24,14 @@ a:visited {
 /*paragraphs*/
 p {
 	display: block;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
 	width: 80%;
 	height: 50%;
 	text-align: center;
 	color:#007402;
-	background-color:rgba(137,137,137,0.3);
+	background-color:rgba(255,255,255,0.85);
 	padding: 1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,11 +42,10 @@ p {
 #nav {
 	z-index: 5;
 	display:block;
-	position:relative;
-	margin-top:0px;
+	width:100%;
+	position:absolute;
 	text-align:right;
-	background-color:#FFFFFF;
-	opacity:1;
+	background-color:rgba(255,255,255,0.85);
 }
 
 #nav li {
@@ -55,8 +57,7 @@ p {
 #nav a {
 	color:#000000;
 	display:inline-block;
-	padding-bottom:10px;
-	padding-top:35px;
+	padding-top:30px;
 	padding-right:42px;
 }
 
@@ -84,11 +85,11 @@ p {
 }
 
 footer {
-	background-color: white;
+	background-color:rgba(255,255,255,0.85);
 	width: 100%;
-	height: 30px;
+	height: 50px;
 	margin-top: 35px;
-	margin-bottom: 35px;
+	margin-bottom: 0px;
 	bottom:0;
 	position: fixed;
 }
@@ -96,7 +97,7 @@ footer {
 footer a {
 	display: inline-block;
 	float: right;
-	padding: 5px;
+	padding: 10px;
 }
 
 #contacts {
