@@ -7,7 +7,7 @@ body {
 	height: 100%;
 	position: relative;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	background-image: url("../images/forest.jpg");
+	background-image: url();
 	background-size: cover;
 }
 
@@ -23,7 +23,6 @@ a:visited {
 
 /*paragraphs*/
 p {
-	display: block;
     margin: auto;
     position: fixed;
     top: 0; left: 0; bottom: 0; right: 0;
@@ -33,9 +32,6 @@ p {
 	color:#007402;
 	background-color:rgba(255,255,255,0.85);
 	padding: 1%;
-	margin-left: auto;
-	margin-right: auto;
-
 }
 
 /*Navigation*/
@@ -103,6 +99,40 @@ footer a {
 #contacts {
 	margin-right: 35px;
 }
+
+#slider1_container {
+	display: block;
+    margin-top: 10%;
+	margin-left:auto;
+	margin-right:auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+	max-width: 1000px; 
+	max-height: 675px; 
+}
+
+h1 {
+	margin:auto;
+	padding-top:75px;
+	text-align:center;
+	color:#A6A6A6
+}
+
+#portlinks {
+	text-decoration:none;
+	padding-top:1px;
+	color:#5D5B5B;
+	letter-spacing:.03em;
+	text-align:center;
+}
+
+#portlinks a:hover {
+	font-style:italic;
+	color:#007402;
+}
+
+
+
 
 
 
