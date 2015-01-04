@@ -22,16 +22,23 @@ a:visited {
 }
 
 /*paragraphs*/
-p {
+.par {
+	display:table;
     margin: auto;
     position: fixed;
     top: 0; left: 0; bottom: 0; right: 0;
 	width: 80%;
 	height: 50%;
-	text-align: center;
 	color:#007402;
 	background-color:rgba(255,255,255,0.85);
 	padding: 1%;
+	text-align:center;
+}
+
+.par p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 
 /*Navigation*/
